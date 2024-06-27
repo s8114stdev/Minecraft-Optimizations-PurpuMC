@@ -1,9 +1,6 @@
 # PurpurMC Optimizations Guide and Configurations
 
 ---
-PurpurMC: hello
-PaperMC: helllo
----
 
 To optimize your PurpurMC server, it is recommended to run it on a Pterodactyl container with the following startup flags:
 
