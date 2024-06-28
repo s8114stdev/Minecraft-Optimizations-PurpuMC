@@ -1,5 +1,9 @@
 # PurpurMC Optimizations Guide and Configurations
 
+![image](https://github.com/s8114stdev/Minecraft-Optimizations-PurpuMC/assets/173851843/d4a01f13-8c11-4514-9fe9-e4b6fcd15627)
+
+Get my latest free optimizations and guides in my [dashboard](https://dashboard.s8114st.xyz). This tool is designed specifically for Minecraft developers to help with various optimizations and guidance.
+
 ---
 
 To optimize your PurpurMC server, it is recommended to run it on a Pterodactyl container with the following startup flags:
