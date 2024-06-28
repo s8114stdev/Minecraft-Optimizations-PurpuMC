@@ -30,9 +30,9 @@ Cracked plugins often contain malicious code such as botnets, backdoors, and cry
 
 I highly recommend getting a server from [Hetzner](https://hetzner.com). It is affordable and reliable, with many Minecraft hosting services using Hetzner. You can easily get started with the help of our guide or through our free installation support via 24/7 Discord ticket support.
 
-## Optimizations
+# Optimizations
 
-### 1. Pterodactyl/Pelican Recommended Startup Flags
+## 1. Pterodactyl/Pelican Recommended Startup Flags
 
 To optimize your PurpurMC server, use the following startup flags when running it on a Pterodactyl/Pelican container:
 
@@ -49,4 +49,39 @@ entity-broadcast-range-percentage=90
 simulation-distance=6
 ```
 
+## 3. Server Configuration: bukkit.yml
 
+```
+settings:
+  allow-end: true
+  warn-on-overload: true
+  permissions-file: permissions.yml
+  update-folder: update
+  plugin-profiling: false
+  connection-throttle: 4500
+  query-plugins: true
+  deprecated-verbose: default
+  shutdown-message: Server closed or is hard restarting
+  minimum-api: none
+  use-map-color-cache: true
+spawn-limits:
+  monsters: 2
+  animals: 2
+  water-animals: 1
+  water-ambient: 1
+  water-underground-creature: 1
+  axolotls: 1
+  ambient: 1
+chunk-gc:
+  period-in-ticks: 400
+ticks-per:
+  monster-spawns: 16
+  animal-spawns: 200
+  water-spawns: 200
+  water-ambient-spawns: 200
+  water-underground-creature-spawns: 200
+  axolotl-spawns: 200
+  ambient-spawns: 200
+  autosave: 10000
+aliases: now-in-commands.yml
+```
